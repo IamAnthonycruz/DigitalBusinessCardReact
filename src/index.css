@@ -1,0 +1,142 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #23252C;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --card-width: 317px;
+  --card-height: 700px;
+}
+.profile-card {
+  width: var(--card-width);
+  height: var(--card-height);
+  background-color: #1A1B21;
+}
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  display: flex;
+  place-items: center;
+  min-height: 100vh;
+}
+.about-title {
+  font-size: 16px;
+  padding-left: 30px;
+  display: flex;
+  justify-content: flex-start;
+}
+.about-para {
+  padding-right: 40px;
+  padding-left: 25px;
+  font-size: 10.24px;
+}
+.info-img {
+  border-radius: 10px 10px 0 0 ;
+  width: 317px;
+  height: 260px;
+}
+.info-container {
+  margin-bottom: 50px;
+}
+.about-container {
+  margin-bottom: 40px;
+}
+.interest-container {
+  margin-bottom: 10px;
+}
+.info-name {
+  margin-top: 10px;
+}
+.info-role {
+  font-size: 12.8px;
+  color: #F3BF99;
+}
+.interest-title {
+  margin-top: 10px;
+  font-size: 16px;
+  padding-left: 30px;
+  display: flex;
+  justify-content: flex-start;
+}
+.info-btn {
+
+  margin-bottom:0px;
+}
+.interest-para {
+  padding-top: 0;
+  padding-right: 40px;
+  padding-left: 25px;
+  font-size: 10.24px;
+}
+.info-website {
+  margin-bottom: 15px;
+  font-size: 10.24px;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  margin-top: 10px;
+  margin-bottom: 0;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #ffffff;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+.info-btn{
+  color: black;
+  width: 247px;
+  height: 34px;
+}
+.end-container {
+  background-color: #161619;
+  width:317px;
+  height: 64px;
+  border-radius: 0px 0px 10px 10px;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #000000;
+  }
+}
